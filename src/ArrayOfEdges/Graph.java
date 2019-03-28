@@ -3,21 +3,40 @@ package ArrayOfEdges;
 import java.util.ArrayList;
 
 public class Graph<T> {
-    private ArrayList<EdgePair<T>> edges = new ArrayList<EdgePair<T>>();
+    private ArrayList<Edge<T>> graph = new ArrayList<Edge<T>>();
 
-    public void addEdgePair(Edge<T> edgeA, Edge<T> edgeB){
-        edges.add(new EdgePair<T>(edgeA, edgeB));
+    public void addUniEdge(Vertex<T> vertexA, Vertex<T> vertexB){
+        graph.add(new Edge<T>(vertexA, vertexB));
     }
 
-    public ArrayList<EdgePair<T>> getEdges() {
-        return edges;
+    public void addBiEdge(Vertex<T> vertexA, Vertex<T> vertexB){
+        addUniEdge(vertexA, vertexB);
+        addUniEdge(vertexB, vertexA);
+    }
+
+    public ArrayList<Edge<T>> getGraph() {
+        return graph;
+    }
+
+    public int getDegree(Vertex<T> vertex){
+        return getAdjacent(vertex).size();
+    }
+
+    public ArrayList<Vertex<T>> getAdjacent(Vertex<T> vertex){
+        ArrayList<Vertex<T>> adjacents = new ArrayList<Vertex<T>>();
+        for (Edge edge : graph) {
+            if(edge.getVertexA().equals(vertex)){
+                adjacents.add(edge.getVertexB());
+            }
+        }
+        return adjacents;
     }
 
     @Override
     public String toString(){
         StringBuilder strBuilder = new StringBuilder();
         strBuilder.append("[\n");
-        for (EdgePair ep : edges) {
+        for (Edge ep : graph) {
             strBuilder.append(ep.toString());
             strBuilder.append("\n");
         }

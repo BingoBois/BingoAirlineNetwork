@@ -1,22 +1,31 @@
 package ArrayOfEdges;
 
 public class Edge<T> {
-    private T data;
+    private Vertex<T> vertexA, vertexB;
 
-    public Edge(T data) {
-        this.data = data;
+    public Edge(Vertex<T> vertexA, Vertex<T> vertexB) {
+        this.vertexA = vertexA;
+        this.vertexB = vertexB;
     }
 
-    public T getData() {
-        return data;
+    public Vertex<T> getVertexA() {
+        return vertexA;
     }
 
-    public void setData(T data) {
-        this.data = data;
+    public Vertex<T> getVertexB() {
+        return vertexB;
     }
 
     @Override
-    public String toString() {
-        return data.toString();
+    public String toString(){
+        StringBuilder strBuilder = new StringBuilder();
+        strBuilder.append("{a: ");
+        strBuilder.append(vertexA.toString());
+        strBuilder.append(" }, ");
+
+        strBuilder.append("{b: ");
+        strBuilder.append(vertexB.toString());
+        strBuilder.append(" }");
+        return strBuilder.toString();
     }
 }

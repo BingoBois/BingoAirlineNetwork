@@ -8,6 +8,12 @@ Assignment with focus on building a directed graph using Airline Network data.
 5. Lav opgave
 
 
+Idag:
+1. Forstå og lav depth first search
+2. Forstå og lav breadth first search
+3. Forstå og lav dijkstras algorithm
+
+
 ## Adjencency Map is a 2d hashmap adjacency map which is a mix of a adjacency matrix & adjacency list with the benefit of a java hashmap :0)
 
 ## Links

@@ -2,12 +2,12 @@ package ArrayOfEdges;
 
 public class Main {
     public static void main(String[] args) {
-        Graph<String> arrayOfEdges = new Graph();
-        arrayOfEdges.addEdgePair(new Edge("sue jugurt"), new Edge("min bamse lugter"));
-        Edge toGange = new Edge<String>("har det godt");
-        arrayOfEdges.addEdgePair(new Edge("william"), toGange);
-        arrayOfEdges.addEdgePair(new Edge("chris"), toGange);
+        Graph<String> graph = new Graph();
+        graph.addBiEdge(new Vertex("sue jugurt"), new Vertex("min bamse lugter"));
+        Vertex toGange = new Vertex<String>("har det godt");
+        graph.addBiEdge(new Vertex("william"), toGange);
+        graph.addBiEdge(new Vertex("chris"), toGange);
 
-        System.out.println(arrayOfEdges.toString());
+        System.out.println(graph.toString());
     }
 }

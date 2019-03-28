@@ -1,9 +1,9 @@
-package AdjacencyMap;
+package ArrayOfEdges;
 
-public class Edge<T> {
+public class Vertex<T> {
     private T data;
 
-    public Edge(T data) {
+    public Vertex(T data) {
         this.data = data;
     }
 
