@@ -1,8 +1,11 @@
-package ArrayOfEdges;
+package graphs.ArrayOfEdges;
+
+import graphs.IGraph;
+import graphs.Vertex;
 
 import java.util.ArrayList;
 
-public class Graph<T> {
+public class Graph<T> implements IGraph<T> {
     private ArrayList<Edge<T>> graph = new ArrayList<Edge<T>>();
 
     public void addUniEdge(Vertex<T> vertexA, Vertex<T> vertexB){
@@ -12,6 +15,16 @@ public class Graph<T> {
     public void addBiEdge(Vertex<T> vertexA, Vertex<T> vertexB){
         addUniEdge(vertexA, vertexB);
         addUniEdge(vertexB, vertexA);
+    }
+
+    @Override
+    public boolean hasEdge(Vertex<T> vertexA, Vertex<T> vertexB) {
+        for (Edge edge : graph) {
+            if(edge.getVertexA().equals(vertexA) && edge.getVertexB().equals(vertexB)){
+                return true;
+            }
+        }
+        return false;
     }
 
     public ArrayList<Edge<T>> getGraph() {

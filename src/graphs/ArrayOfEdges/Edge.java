@@ -1,4 +1,6 @@
-package ArrayOfEdges;
+package graphs.ArrayOfEdges;
+
+import graphs.Vertex;
 
 public class Edge<T> {
     private Vertex<T> vertexA, vertexB;

@@ -1,4 +1,4 @@
-package ArrayOfEdges;
+package graphs;
 
 public class Vertex<T> {
     private T data;

@@ -1,4 +1,6 @@
-package AdjacencyMap;
+package graphs.AdjacencyMap;
+
+import graphs.Vertex;
 
 public class Main {
     public static void main(String[] args) {

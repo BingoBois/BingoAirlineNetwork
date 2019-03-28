@@ -16,6 +16,10 @@ Idag:
 
 ## Adjencency Map is a 2d hashmap adjacency map which is a mix of a adjacency matrix & adjacency list with the benefit of a java hashmap :0)
 
+Tanker:
+DepthFirst er problematisk pga den nødenvigvis ikke finder den korteste path, men finder den første, ud fra hvor lang tid siden elementer er tilføjet.
+
+
 ## Links
 https://github.com/datsoftlyngby/soft2019spring-algorithms/blob/master/Weeklies/Week_11/slides/07_Graphs_1.pdf
 https://github.com/datsoftlyngby/soft2019spring-algorithms/blob/master/Weeklies/Week_12/slides/07_Graphs_2.pdf

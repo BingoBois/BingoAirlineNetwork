@@ -1,19 +1,21 @@
-package AdjacencyMap;
+package graphs.AdjacencyList;
+
+import graphs.IGraph;
+import graphs.Vertex;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class Graph<T> {
-    // Edgepair for key, boolean if they share a vertice
-    private HashMap<Vertex<T>, HashMap<Vertex<T>, Boolean>> graph = new HashMap<>();
+public class Graph<T> implements IGraph<T> {
+    private HashMap<Vertex<T>, ArrayList<Vertex<T>>> graph = new HashMap<>();
 
     public void addUniEdge(Vertex<T> vertexA, Vertex<T> vertexB){
-        HashMap<Vertex<T>, Boolean> tmpHash = graph.get(vertexA);
-        if (tmpHash == null){
-            tmpHash = new HashMap<>();
+        ArrayList<Vertex<T>> tmpList = graph.get(vertexA);
+        if (tmpList == null){
+            tmpList = new ArrayList<>();
         }
-        tmpHash.put(vertexB, true);
-        graph.put(vertexA, tmpHash);
+        tmpList.add(vertexB);
+        graph.put(vertexA, tmpList);
     }
 
     public void addBiEdge(Vertex<T> vertexA, Vertex<T> vertexB){
@@ -21,12 +23,17 @@ public class Graph<T> {
         addUniEdge(vertexB, vertexA);
     }
 
-    public boolean hasVertice(Vertex<T> vertexA, Vertex<T> vertexB) {
-        HashMap<Vertex<T>, Boolean> tmpHash = graph.get(vertexA);
-        if (tmpHash == null){
+    public boolean hasEdge(Vertex<T> vertexA, Vertex<T> vertexB) {
+        ArrayList<Vertex<T>> tmpList = graph.get(vertexA);
+        if (tmpList == null){
             return false;
         }
-        return tmpHash.get(vertexB);
+        for (int i = 0; i < tmpList.size(); i++){
+            if(tmpList.get(i).equals(vertexB)){
+                return true;
+            }
+        }
+        return false;
     }
 
     public int getDegree(Vertex<T> vertex){
@@ -34,7 +41,7 @@ public class Graph<T> {
     }
 
     public ArrayList<Vertex<T>> getAdjacent(Vertex<T> vertex){
-        return (ArrayList<Vertex<T>>) graph.get(vertex).keySet();
+        return graph.get(vertex);
     }
 
     @Override
@@ -43,8 +50,8 @@ public class Graph<T> {
         strBuilder.append("[\n");
         for (Vertex<T> vertex : graph.keySet()) {
             strBuilder.append(vertex.toString());
-            HashMap<Vertex<T>, Boolean> hm = graph.get(vertex);
-            for(Vertex<T> e : hm.keySet()){
+            ArrayList<Vertex<T>> tmpList = graph.get(vertex);
+            for(Vertex<T> e : tmpList){
                 strBuilder.append(" { ");
                 strBuilder.append(e.toString());
                 strBuilder.append(" },");
