@@ -1,0 +1,54 @@
+package models;
+
+public class Route {
+    private String airlineCode, sourceCode, distinationCode;
+    private float distance, time;
+
+    public Route(String airlineCode, String sourceCode, String distinationCode, float distance, float time) {
+        this.airlineCode = airlineCode;
+        this.sourceCode = sourceCode;
+        this.distinationCode = distinationCode;
+        this.distance = distance;
+        this.time = time;
+    }
+
+    public String getAirlineCode() {
+        return airlineCode;
+    }
+
+    public void setAirlineCode(String airlineCode) {
+        this.airlineCode = airlineCode;
+    }
+
+    public String getSourceCode() {
+        return sourceCode;
+    }
+
+    public void setSourceCode(String sourceCode) {
+        this.sourceCode = sourceCode;
+    }
+
+    public String getDistinationCode() {
+        return distinationCode;
+    }
+
+    public void setDistinationCode(String distinationCode) {
+        this.distinationCode = distinationCode;
+    }
+
+    public float getDistance() {
+        return distance;
+    }
+
+    public void setDistance(float distance) {
+        this.distance = distance;
+    }
+
+    public float getTime() {
+        return time;
+    }
+
+    public void setTime(float time) {
+        this.time = time;
+    }
+}

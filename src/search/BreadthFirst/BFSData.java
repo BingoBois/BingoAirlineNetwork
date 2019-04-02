@@ -2,15 +2,13 @@ package search.BreadthFirst;
 
 import graphs.Vertex;
 
-public class BFSData<T> {
+public class BFSData<T extends Comparable<T>> {
     private BFSData<T> parent;
     private Vertex<T> vertex;
-    private int distance;
 
-    public BFSData(Vertex<T> vertex, BFSData<T> parent, int distance){
+    public BFSData(Vertex<T> vertex, BFSData<T> parent){
         this.parent = parent;
         this.vertex = vertex;
-        this.distance = distance;
     }
 
     public BFSData<T> getParent() {
@@ -29,7 +27,4 @@ public class BFSData<T> {
         this.vertex = current;
     }
 
-    public int getDistance() {
-        return distance;
-    }
 }

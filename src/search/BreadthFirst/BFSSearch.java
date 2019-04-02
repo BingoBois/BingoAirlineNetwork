@@ -9,7 +9,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedList;
 
-public class BFSSearch<T> implements ISearch<T> {
+public class BFSSearch<T extends Comparable<T>> implements ISearch<T> {
     private LinkedList<BFSData<T>> unvisited = new LinkedList<>();
     private HashMap<Vertex<T>, Boolean> visited = new HashMap<>();
     private IGraph graph;
@@ -31,9 +31,9 @@ public class BFSSearch<T> implements ISearch<T> {
         ArrayList<Vertex<T>> adjacent = graph.getAdjacent(current.getVertex());
 
         for(Vertex<T> data : adjacent){
-            if(!hasVisited(data) && !hasUnvisited(data))
+            if(!hasVisited(data) && !isInUnvisited(data))
                 System.out.println("Adding vertex to unvisited " + data.toString());
-                unvisited.add(new BFSData<>(data, current, current.getDistance()));
+                unvisited.add(new BFSData<>(data, current));
         }
 
         if(unvisited.size() == 0){
@@ -49,7 +49,7 @@ public class BFSSearch<T> implements ISearch<T> {
         return visited.get(current) != null ? true : false;
     }
 
-    public boolean hasUnvisited(Vertex<T> current){
+    public boolean isInUnvisited(Vertex<T> current){
         for(BFSData<T> v : unvisited){
             if(v.getVertex().equals(current))
                 return true;
@@ -61,7 +61,7 @@ public class BFSSearch<T> implements ISearch<T> {
     @Override
     public ArrayList<Vertex<T>> search(Vertex<T> start, Vertex<T> end) {
         ArrayList<Vertex<T>> path = new ArrayList<Vertex<T>>();
-        BFSData<T> bfsIterator = searchDeep(new BFSData<>(start, null, 0), end);
+        BFSData<T> bfsIterator = searchDeep(new BFSData<>(start, null), end);
         while(bfsIterator.getParent() != null){
             path.add(bfsIterator.getVertex());
             bfsIterator = bfsIterator.getParent();

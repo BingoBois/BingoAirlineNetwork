@@ -5,7 +5,7 @@ import graphs.Vertex;
 
 import java.util.ArrayList;
 
-public class Graph<T> implements IGraph<T> {
+public class Graph<T extends Comparable<T>> implements IGraph<T> {
     private ArrayList<Edge<T>> graph = new ArrayList<Edge<T>>();
 
     public void addUniEdge(Vertex<T> vertexA, Vertex<T> vertexB){
@@ -15,6 +15,11 @@ public class Graph<T> implements IGraph<T> {
     public void addBiEdge(Vertex<T> vertexA, Vertex<T> vertexB){
         addUniEdge(vertexA, vertexB);
         addUniEdge(vertexB, vertexA);
+    }
+
+    @Override
+    public void addWithNoEdge(Vertex<T> vertexA) {
+
     }
 
     @Override
