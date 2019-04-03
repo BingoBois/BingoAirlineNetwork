@@ -20,7 +20,7 @@ public class Main {
 
 
         //Shows worst case scenario of depth first
-        graph.addUniEdge(e1, e2);
+        //graph.addUniEdge(e1, e2);
 
         graph.addUniEdge(e1, e3);
         graph.addUniEdge(e3, e4);
@@ -28,8 +28,8 @@ public class Main {
         graph.addUniEdge(e5, e6);
         graph.addUniEdge(e6, e7);
         graph.addUniEdge(e7, e8);
-        graph.addUniEdge(e8, e9);
-        graph.addUniEdge(e9, e2);
+        //graph.addUniEdge(e8, e9);
+        //graph.addUniEdge(e9, e2);
 
         DFSSearch dfsSearch = new DFSSearch(graph);
         ArrayList<Vertex<String>> path = dfsSearch.search(e1, e2);

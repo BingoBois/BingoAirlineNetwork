@@ -9,7 +9,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Stack;
 
-public class DFSSearch<T> implements ISearch<T> {
+public class DFSSearch<T extends Comparable<T>> implements ISearch<T> {
     private IGraph graph;
     private Stack<DFSData> unvisited;
     private HashMap<Vertex, Boolean> visited;

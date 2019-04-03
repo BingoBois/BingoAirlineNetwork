@@ -2,7 +2,7 @@ package search.DepthFirst;
 
 import graphs.Vertex;
 
-public class DFSData<T> {
+public class DFSData<T extends Comparable<T>> {
     private Vertex<T> vertex;
     private DFSData<T> parent;
 

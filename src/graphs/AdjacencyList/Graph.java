@@ -6,7 +6,7 @@ import graphs.Vertex;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class Graph<T> implements IGraph<T> {
+public class Graph<T extends Comparable<T>> implements IGraph<T> {
     private HashMap<Vertex<T>, ArrayList<Vertex<T>>> graph = new HashMap<>();
 
     public void addUniEdge(Vertex<T> vertexA, Vertex<T> vertexB){
@@ -21,6 +21,11 @@ public class Graph<T> implements IGraph<T> {
     public void addBiEdge(Vertex<T> vertexA, Vertex<T> vertexB){
         addUniEdge(vertexA, vertexB);
         addUniEdge(vertexB, vertexA);
+    }
+
+    @Override
+    public void addWithNoEdge(Vertex<T> vertexA) {
+
     }
 
     public boolean hasEdge(Vertex<T> vertexA, Vertex<T> vertexB) {

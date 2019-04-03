@@ -2,7 +2,7 @@ package graphs.ArrayOfEdges;
 
 import graphs.Vertex;
 
-public class Edge<T> {
+public class Edge<T extends Comparable<T>> {
     private Vertex<T> vertexA, vertexB;
 
     public Edge(Vertex<T> vertexA, Vertex<T> vertexB) {

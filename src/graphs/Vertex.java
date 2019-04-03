@@ -1,6 +1,6 @@
 package graphs;
 
-public class Vertex<T> {
+public class Vertex<T extends Comparable<T>> implements Comparable<Vertex<T>>{
     private T data;
 
     public Vertex(T data) {
@@ -18,5 +18,10 @@ public class Vertex<T> {
     @Override
     public String toString() {
         return data.toString();
+    }
+
+    @Override
+    public int compareTo(Vertex<T> o) {
+        return o.getData().compareTo(data);
     }
 }
