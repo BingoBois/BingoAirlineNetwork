@@ -1,18 +1,17 @@
-package search.IO;
+package IO;
 
 import models.Airport;
-import models.Route;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
 
-public class RouteReader {
-    private static final String FILENAME = "F:\\William\\Documents\\Dat2019\\Algoritmer\\BingoAirlineNetwork\\src\\dumps\\routes.txt";
+public class AirportReader<T> {
+    private static final String FILENAME = "F:\\William\\Documents\\Dat2019\\Algoritmer\\BingoAirlineNetwork\\src\\dumps\\airports.txt";
 
-    public HashMap<String, Route> readRoutes() {
-        HashMap<String, Route> airlines = new HashMap<>();
+    public HashMap<String, Airport> readAirlines() {
+        HashMap<String, Airport> airlines = new HashMap<>();
         BufferedReader br = null;
         FileReader fr = null;
 
@@ -29,13 +28,14 @@ public class RouteReader {
                     isFirst = false;
                 }else{
                     String[] split = sCurrentLine.split(";");
-                    airlines.put(split[0], new Route(
-                            split[0],
-                            split[1],
-                            split[2],
-                            Float.parseFloat(split[3]),
-                            Float.parseFloat(split[4])
-                    ));
+                    airlines.put(split[0], new Airport(
+                                                        split[0],
+                                                        split[1],
+                                                        split[2],
+                                                        split[3],
+                                                        Float.parseFloat(split[4]),
+                                                        Float.parseFloat(split[5])
+                                                        ));
                 }
             }
         } catch (IOException e) {

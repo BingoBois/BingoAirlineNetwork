@@ -1,22 +1,22 @@
-package search.IO;
+package IO;
 
-import models.Aircraft;
-import models.Airline;
+import models.Route;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.HashMap;
+import java.util.ArrayList;
 
-public class AircraftReader {
-    private static final String FILENAME = "F:\\William\\Documents\\Dat2019\\Algoritmer\\BingoAirlineNetwork\\src\\dumps\\aircraft.txt";
+public class RouteReader {
+    private static final String FILENAME = "src/dumps/routes.txt";
 
-    public HashMap<String, Aircraft> readAircrafts() {
-        HashMap<String, Aircraft> airlines = new HashMap<>();
+    public ArrayList<Route> readRoutes() {
+        ArrayList<Route> airlines = new ArrayList<>();
         BufferedReader br = null;
         FileReader fr = null;
 
         try {
+
             //br = new BufferedReader(new FileReader(FILENAME));
             fr = new FileReader(FILENAME);
             br = new BufferedReader(fr);
@@ -27,10 +27,14 @@ public class AircraftReader {
                 if(isFirst){
                     isFirst = false;
                 }else{
-
                     String[] split = sCurrentLine.split(";");
-                    if(split.length == 3)
-                        airlines.put(split[0], new Aircraft(split[0], split[1], split[2]));
+                    airlines.add(new Route(
+                            split[0],
+                            split[1],
+                            split[2],
+                            Float.parseFloat(split[3]),
+                            Float.parseFloat(split[4])
+                    ));
                 }
             }
         } catch (IOException e) {
