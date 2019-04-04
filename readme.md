@@ -16,6 +16,15 @@ Idag:
 
 ## Adjencency Map is a 2d hashmap adjacency map which is a mix of a adjacency matrix & adjacency list with the benefit of a java hashmap :0)
 
+
+### Implementation
+
+Started out the assignment doing super generic setups for everything, including the Vertexes and the data they store. It seemed really smart, but we found out that every algorithm is tightly tied into the datatype and way you store it. After wasting way too much time, we decided to basically just have speific graphs/data type for each assignment.
+
+### DepthFirst
+
+We had issues with DepthFirst - considering its nature of traversing almost random routes, till it reaches its end goal, or a dead end, where it then backtracks. It would crash - because of a stackoverflow error that ocurred, due to the size of the data set provided. When using a smaller dataset (40k lines, instead of 65k lines) we got acceptable results, without crashes.
+
 Tanker:
 DepthFirst er problematisk pga den nødenvigvis ikke finder den korteste path, men finder den første, ud fra hvor lang tid siden elementer er tilføjet.
 

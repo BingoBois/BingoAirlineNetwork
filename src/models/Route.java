@@ -1,8 +1,9 @@
 package models;
 
 public class Route {
+
     private String airlineCode, sourceCode, distinationCode;
-    private float distance, time;
+    private double distance, time;
 
     public Route(String airlineCode, String sourceCode, String distinationCode, float distance, float time) {
         this.airlineCode = airlineCode;
@@ -36,7 +37,7 @@ public class Route {
         this.distinationCode = distinationCode;
     }
 
-    public float getDistance() {
+    public double getDistance() {
         return distance;
     }
 
@@ -44,7 +45,7 @@ public class Route {
         this.distance = distance;
     }
 
-    public float getTime() {
+    public double getTime() {
         return time;
     }
 

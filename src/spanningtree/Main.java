@@ -1,6 +1,6 @@
 package spanningtree;
 
-import search.Dijkstra.Graph;
+import graphs.AdjacencyMap.Graph;
 
 public class Main {
     public static void main(String[] args) {
