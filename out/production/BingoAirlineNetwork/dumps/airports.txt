@@ -1847,7 +1847,7 @@ UIO;Mariscal Sucre International Airport;Quito;Ecuador;-0.129166666667;-78.3575
 ETR;Santa Rosa International Airport;Santa Rosa;Ecuador;-3.441986;-79.996957
 SNC;General Ulpiano Paez Airport;Salinas;Ecuador;-2.20499;-80.988899
 TPC;Tarapoa Airport;Tarapoa;Ecuador;-0.12295600026845932;-76.33779907226562
-TUA;Teniente Coronel Luis a Mantilla Airport;Tulcan;Ecuador;0.8095059990882874;-77.70809936523438
+TUA;Teniente Coronel Luis source Mantilla Airport;Tulcan;Ecuador;0.8095059990882874;-77.70809936523438
 ASU;Silvio Pettirossi International Airport;Asuncion;Paraguay;-25.239999771118164;-57.52000045776367
 CIO;Teniente Col Carmelo Peralta Airport;Conception;Paraguay;-23.442363;-57.427253
 AXM;El Eden Airport;Armenia;Colombia;4.45278;-75.7664
@@ -1970,7 +1970,7 @@ DCF;Canefield Airport;Canefield;Dominica;15.336700439453125;-61.3922004699707
 DOM;Melville Hall Airport;Dominica;Dominica;15.54699993133545;-61.29999923706055
 FDF;Martinique Aimé Césaire International Airport;Fort-de-france;Martinique;14.590999603271484;-61.00320053100586
 SFG;L'Espérance Airport;St. Martin;Guadeloupe;18.099899291992;-63.047199249268
-PTP;Pointe-à-Pitre Le Raizet;Pointe-a-pitre;Guadeloupe;16.265300750732422;-61.53179931640625
+PTP;Pointe-à-Pitre Le Raizet;Pointe-source-pitre;Guadeloupe;16.265300750732422;-61.53179931640625
 GND;Point Salines International Airport;Point Salines;Grenada;12.004199981689453;-61.78620147705078
 STT;Cyril E. King Airport;St. Thomas;Virgin Islands;18.337299346923828;-64.97339630126953
 STX;Henry E Rohlsen Airport;St. Croix Island;Virgin Islands;17.701900482177734;-64.79859924316406
@@ -2894,7 +2894,7 @@ HOD;Hodeidah International Airport;Hodeidah;Yemen;14.753000259399414;42.97629928
 ADE;Aden International Airport;Aden;Yemen;12.829500198364258;45.02880096435547
 AXK;Ataq Airport;Ataq;Yemen;14.551300048828125;46.82619857788086
 AAY;Al Ghaidah International Airport;Al Ghaidah Intl;Yemen;16.191699981689453;52.17499923706055
-SAH;Sana'a International Airport;Sanaa;Yemen;15.476300239562988;44.21969985961914
+SAH;Sana'source International Airport;Sanaa;Yemen;15.476300239562988;44.21969985961914
 BHN;Beihan Airport;Beihan;Yemen;14.781999588012695;45.72010040283203
 SCT;Socotra International Airport;Socotra;Yemen;12.63070011138916;53.905799865722656
 FMM;Memmingen Allgau Airport;Memmingen;Germany;47.988800048799995;10.2395000458
@@ -2975,7 +2975,7 @@ VNY;Van Nuys Airport;Van Nuys;United States;34.209800720215;-118.48999786377
 MLI;Quad City International Airport;Moline;United States;41.44850158691406;-90.50749969482422
 PFN;Panama City-Bay Co International Airport;Panama City;United States;30.212099;-85.6828
 HIR;Honiara International Airport;Honiara;Solomon Islands;-9.4280004501343;160.05499267578
-PPT;Faa'a International Airport;Papeete;French Polynesia;-17.5536994934;-149.606994629
+PPT;Faa'source International Airport;Papeete;French Polynesia;-17.5536994934;-149.606994629
 INU;Nauru International Airport;Nauru;Nauru;-0.547458;166.919006
 FUN;Funafuti International Airport;Funafuti;Tuvalu;-8.525;179.195999
 OVB;Tolmachevo Airport;Novosibirsk;Russia;55.012599945068;82.650703430176

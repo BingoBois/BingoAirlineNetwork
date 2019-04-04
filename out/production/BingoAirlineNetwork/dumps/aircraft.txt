@@ -114,7 +114,7 @@ AN4;Antonov AN-24;M
 AN6;Antonov AN-26 / AN-30 /AN-32;M
 AN7;Antonov AN-72 / AN-74;M
 ANF;Antonov AN-12;M
-APH;Eurocopter (Aerospatiale) SA330 Puma / AS332 Super Puma;n/a
+APH;Eurocopter (Aerospatiale) SA330 Puma / AS332 Super Puma;n/source
 AR1;Avro RJ100 Avroliner;M
 AR7;Avro RJ70 Avroliner;M
 AR8;Avro RJ85 Avroliner;M
@@ -140,10 +140,10 @@ BEH;Beechcraft 1900D;M
 BEP;Beechcraft light aircraft - single engine;L
 BES;Beechcfrat 1900/1900C;M
 BET;Beechcraft light aircraft - twin turboprop engine;L
-BH2;Bell Helicopters;n/a
+BH2;Bell Helicopters;n/source
 BNI;Pilatus Britten-Norman BN-2A/B Islander;L
 BNT;Pilatus Britten-Norman BN-2A Mk III Trislander;L
-BUS;Bus;n/a
+BUS;Bus;n/source
 CCJ;Canadair Challenger;M
 CCX;Canadair Global Express;M
 CD2;Government Aircraft Factories N22B / N24A Nomad;L
@@ -245,7 +245,7 @@ GRM;Grumman G.73 Turbo Mallard;L
 GRS;Gulfstream Aerospace G-159 Gulfstream I;M
 H25;British Aerospace (Hawker Siddeley) HS.125;M
 HEC;Helio H-250 Courier / H-295 / 385 Super Courier;L
-HOV;Hovercraft;n/a
+HOV;Hovercraft;n/source
 HS7;Hawker Siddeley HS.748;M
 I14;Ilyushin IL114;M
 I93;Ilyushin IL96-300 pax;H
@@ -269,8 +269,8 @@ L15;Lockheed L-1011 500 Tristar pax;H
 L1F;Lockheed L-1011 Tristar Freighter;H
 L49;Lockheed L-1049 Super Constellation;M
 L4T;LET 410;L
-LCH;Launch - Boat;n/a
-LMO;Limousine;n/a
+LCH;Launch - Boat;n/source
+LMO;Limousine;n/source
 LOE;Lockheed L-188 Electra pax;M
 LOF;Lockheed L-188 Electra Freighter;M
 LOH;Lockheed L-182 / 282 / 382 (L-100) Hercules;M
@@ -286,14 +286,14 @@ M83;McDonnell Douglas MD83;M
 M87;McDonnell Douglas MD87;M
 M88;McDonnell Douglas MD88;M
 M90;McDonnell Douglas MD90;M
-MBH;Eurocopter (MBB) Bo.105;n/a
-MD9;MD Helicopters MD900 Explorer;n/a
-MIH;MIL Mi-8 / Mi-17 / Mi-171 / Mil-172;n/a
+MBH;Eurocopter (MBB) Bo.105;n/source
+MD9;MD Helicopters MD900 Explorer;n/source
+MIH;MIL Mi-8 / Mi-17 / Mi-171 / Mil-172;n/source
 MU2;Mitsubishi Mu-2;L
 ND2;Aerospatiale (Nord) 262;M
 NDC;Aerospatiale SN.601 Corvette;L
-NDE;Eurocopter (Aerospatiale) AS350 Ecureuil / AS355 Ecureuil 2;n/a
-NDH;Eurocopter (Aerospatiale) SA365C / SA365N Dauphin 2;n/a
+NDE;Eurocopter (Aerospatiale) AS350 Ecureuil / AS355 Ecureuil 2;n/source
+NDH;Eurocopter (Aerospatiale) SA365C / SA365N Dauphin 2;n/source
 PA1;Piper light aircraft - single piston engine;L
 PA2;Piper light aircraft - twin piston engines;L
 PAG;Piper light aircraft;L
@@ -301,11 +301,11 @@ PAT;Piper light aircraft - twin turboprop engines;L
 PL2;Pilatus PC-12;L
 PL6;Pilatus PC-6 Turbo Porter;L
 PN6;Partenavia P.68;L
-RFS;Road Feeder Service - Cargo Truck;n/a
+RFS;Road Feeder Service - Cargo Truck;n/source
 S20;Saab 2000;M
-S58;Sikorsky S-58T;n/a
-S61;Sikorsky S-61;n/a
-S76;Sikorsky S-76;n/a
+S58;Sikorsky S-58T;n/source
+S61;Sikorsky S-61;n/source
+S76;Sikorsky S-76;n/source
 SF3;Saab SF340A/B;M
 SH3;Shorts SD.330;M
 SH6;Shorts SD.360;M
@@ -314,7 +314,7 @@ SHS;Shorts SC-7 Skyvan;L
 SSC;Aerospatiale/BAC Concorde;H
 SWM;Fairchild (Swearingen) SA26 / SA226 / SA227 Metro / Merlin / Expediter;L
 T20;Tupolev Tu-204 / Tu-214;M
-TRN;Train;n/a
+TRN;Train;n/source
 TU3;Tupolev Tu134;M
 TU5;Tupolev Tu154;M
 VCV;Vickers Viscount;M
