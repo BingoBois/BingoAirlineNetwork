@@ -5,39 +5,68 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06b479a5-fca9-41c2-b1f9-64f69d1b07fa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/graphs/AdjacencyList/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/graphs/AdjacencyList/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/graphs/AdjacencyList/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/graphs/AdjacencyList/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/graphs/AdjacencyMap/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/graphs/AdjacencyMap/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/graphs/AdjacencyMap/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/graphs/AdjacencyMap/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/graphs/ArrayOfEdges/Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/graphs/ArrayOfEdges/Edge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/graphs/ArrayOfEdges/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/graphs/ArrayOfEdges/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/graphs/ArrayOfEdges/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/graphs/ArrayOfEdges/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/graphs/IGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/graphs/IGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/graphs/Vertex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/graphs/Vertex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/models/Aircraft.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/models/Aircraft.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/models/Airline.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/models/Airline.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/models/Airport.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/models/Airport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/IO/AircraftReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/IO/AirlineReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/IO/AirportReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/IO/RouteReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/IO/RouteReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/graphs/AdjacencyList/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/graphs/AdjacencyList/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/graphs/AdjacencyMap/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/graphs/AdjacencyMap/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/graphs/ArrayOfEdges/Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/graphs/ArrayOfEdges/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/graphs/ArrayOfEdges/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/graphs/IGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/graphs/Vertex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/models/Aircraft.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/models/Airline.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/models/Airport.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/models/Route.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/models/Route.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/search/BreadthFirst/BFSData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/search/BreadthFirst/BFSData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/search/BreadthFirst/BFSSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/search/BreadthFirst/BFSSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/search/BreadthFirst/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/search/BreadthFirst/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/search/DepthFirst/DFSData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/search/DepthFirst/DFSData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/search/DepthFirst/DFSSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/search/DepthFirst/DFSSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/search/DepthFirst/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/search/DepthFirst/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/search/Dijkstra/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/search/Dijkstra/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/search/Dijkstra/MinHeap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/search/ISearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/search/ISearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/search/Dijkstra/DKData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/search/Dijkstra/DKSearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/search/Dijkstra/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/search/Dijkstra/MinHeap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/search/IO/AircraftReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IO/AircraftReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/search/IO/AirlineReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IO/AirlineReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/search/IO/AirportReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IO/AirportReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/search/IO/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/search/IO/RouteReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IO/RouteReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/search/BreadthFirst/BFSData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/search/BreadthFirst/BFSSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/search/BreadthFirst/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/search/DepthFirst/DFSData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/search/DepthFirst/DFSSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/search/DepthFirst/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/search/Dijkstra/Dijkstra$minHeapComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/search/Dijkstra/Dijkstra.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/search/Dijkstra/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/search/Dijkstra/HeapType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/search/Dijkstra/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/search/ISearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BingoAirlineNetwork/spanningtree/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IO/AircraftReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IO/AirlineReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IO/AirportReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Aircraft.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Airline.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Airport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Route.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Route.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search/ISearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/ISearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search/Opg1BreadthFirst/BreadthFirst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Opg1BreadthFirst/BreadthFirst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search/Opg1BreadthFirst/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Opg1BreadthFirst/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search/Opg1BreadthFirst/HeapType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Opg1BreadthFirst/HeapType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search/Opg1BreadthFirst/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Opg1BreadthFirst/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search/Opg1BreadthFirst/NoPathException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Opg1BreadthFirst/NoPathException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search/Opg1DepthFirst/DepthFirst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Opg1DepthFirst/DepthFirst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search/Opg1DepthFirst/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Opg1DepthFirst/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search/Opg1DepthFirst/HeapType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Opg1DepthFirst/HeapType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search/Opg1DepthFirst/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Opg1DepthFirst/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search/Opg1DepthFirst/NoPathException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Opg1DepthFirst/NoPathException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search/Opg2Dijkstra/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Opg2Dijkstra/Dijkstra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search/Opg2Dijkstra/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Opg2Dijkstra/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search/Opg2Dijkstra/HeapType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Opg2Dijkstra/HeapType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search/Opg2Dijkstra/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Opg2Dijkstra/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search/Opg2Dijkstra/NoPathException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Opg2Dijkstra/NoPathException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search/Opg3Dijkstra/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Opg3Dijkstra/Dijkstra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search/Opg3Dijkstra/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Opg3Dijkstra/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search/Opg3Dijkstra/HeapType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Opg3Dijkstra/HeapType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search/Opg3Dijkstra/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Opg3Dijkstra/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search/Opg3Dijkstra/NoPathException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Opg3Dijkstra/NoPathException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spanningtree/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spanningtree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/Opg4MST/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,44 +77,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dumps/airports.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/search/Dijkstra/Graph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-              <folding>
-                <element signature="e#1317#1318#0" expanded="true" />
-                <element signature="e#1364#1365#0" expanded="true" />
-                <element signature="e#1859#1860#0" expanded="true" />
-                <element signature="e#1894#1895#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dumps/routes.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-494">
-              <caret line="2564" column="7" selection-start-line="2564" selection-start-column="7" selection-end-line="2564" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/search/Dijkstra/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/algo/Opg4MST/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+              <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,40 +90,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/search/Dijkstra/Dijkstra.java">
+        <entry file="file://$PROJECT_DIR$/src/algo/Opg4MST/Primm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
-              <folding>
-                <element signature="e#268#269#0" expanded="true" />
-                <element signature="e#350#351#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/search/Dijkstra/HeapType.java">
+        <entry file="file://$PROJECT_DIR$/src/algo/Opg4MST/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            <state relative-caret-position="379">
+              <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
               <folding>
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#294#295#0" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
-                <element signature="e#358#359#0" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1998#1999#0" expanded="true" />
+                <element signature="e#2033#2034#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IO/RouteReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="29" column="53" lean-forward="true" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -153,6 +133,7 @@
       <find>German</find>
       <find>KZN;DME</find>
       <find>AER;ALA</find>
+      <find>AA</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -161,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Edge.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/EdgePair.java" />
         <option value="$PROJECT_DIR$/src/Graph.java" />
@@ -192,7 +172,6 @@
         <option value="$PROJECT_DIR$/src/search/DepthFirst/DFSVertex.java" />
         <option value="$PROJECT_DIR$/src/search/ISearch.java" />
         <option value="$PROJECT_DIR$/src/graphs/ArrayOfEdges/Main.java" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/src/lort.java" />
         <option value="$PROJECT_DIR$/src/search/DepthFirst/DFSData.java" />
         <option value="$PROJECT_DIR$/src/search/DepthFirst/DFSSearch.java" />
@@ -208,11 +187,18 @@
         <option value="$PROJECT_DIR$/src/search/Dijkstra/Dijkstra.java" />
         <option value="$PROJECT_DIR$/src/search/Dijkstra/Graph.java" />
         <option value="$PROJECT_DIR$/src/search/Dijkstra/Main.java" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/src/models/Route.java" />
+        <option value="$PROJECT_DIR$/src/IO/MSTRouteReader.java" />
+        <option value="$PROJECT_DIR$/src/algo/Opg4MST/Graph.java" />
+        <option value="$PROJECT_DIR$/src/algo/Opg4MST/Main.java" />
+        <option value="$PROJECT_DIR$/src/algo/Opg4MST/Primm.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="469" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -224,6 +210,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -241,31 +228,29 @@
               <item name="BingoAirlineNetwork" type="b2602c69:ProjectViewProjectNode" />
               <item name="BingoAirlineNetwork" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="algo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BingoAirlineNetwork" type="b2602c69:ProjectViewProjectNode" />
               <item name="BingoAirlineNetwork" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="BreadthFirst" type="462c0819:PsiDirectoryNode" />
+              <item name="algo" type="462c0819:PsiDirectoryNode" />
+              <item name="Opg4MST" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BingoAirlineNetwork" type="b2602c69:ProjectViewProjectNode" />
               <item name="BingoAirlineNetwork" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="Dijkstra" type="462c0819:PsiDirectoryNode" />
+              <item name="dumps" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554329415196" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554390697151" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -273,6 +258,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="algo.Opg4MST" />
+      <recent name="IO" />
       <recent name="search.Dijkstra" />
       <recent name="AdjacencyMatrix" />
     </key>
@@ -295,7 +282,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="search.DepthFirst.Main" />
       <module name="BingoAirlineNetwork" />
@@ -315,6 +302,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="search.Dijkstra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algo.Opg4MST.Main" />
+      <module name="BingoAirlineNetwork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algo.Opg4MST.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -364,6 +364,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.lort" />
@@ -387,7 +388,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1076759" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.108742006" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -396,7 +397,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -423,7 +424,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/AdjacencyMatrix/EdgePair.java" />
     <entry file="file://$PROJECT_DIR$/src/graphs/AdjacencyList/Vertex.java" />
     <entry file="file://$PROJECT_DIR$/src/graphs/ArrayOfEdges/Vertex.java" />
     <entry file="file://$PROJECT_DIR$/src/graphs/AdjacencyList/Main.java">
@@ -514,7 +514,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/search/ISearch.java">
+    <entry file="file://$PROJECT_DIR$/src/algo/ISearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
@@ -570,13 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="150" selection-start-line="19" selection-start-column="150" selection-end-line="19" selection-end-column="150" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/IO/AirportReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -605,20 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dumps/airlines.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dumps/aircraft.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/models/Aircraft.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -626,62 +605,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/search/Dijkstra/DKData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/search/Dijkstra/DKSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-277">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IO/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spanningtree/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spanningtree/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/Route.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IO/RouteReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="29" column="53" lean-forward="true" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dumps/airports.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/search/Dijkstra/DKData.java" />
+    <entry file="file://$PROJECT_DIR$/src/search/Dijkstra/DKSearch.java" />
+    <entry file="file://$PROJECT_DIR$/src/IO/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/search/BreadthFirst/BFSData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -689,28 +615,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/search/Dijkstra/MinHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/search/Dijkstra/HeapType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/search/Dijkstra/MinHeap.java" />
     <entry file="file://$PROJECT_DIR$/src/search/BreadthFirst/BFSSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -726,41 +631,151 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/search/Dijkstra/Dijkstra.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
-          <folding>
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/search/Dijkstra/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-          <folding>
-            <element signature="e#1317#1318#0" expanded="true" />
-            <element signature="e#1364#1365#0" expanded="true" />
-            <element signature="e#1859#1860#0" expanded="true" />
-            <element signature="e#1894#1895#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1056">
+          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dumps/routes.txt">
+    <entry file="file://$PROJECT_DIR$/src/search/Dijkstra/Dijkstra.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-494">
-          <caret line="2564" column="7" selection-start-line="2564" selection-start-column="7" selection-end-line="2564" selection-end-column="7" />
+        <state relative-caret-position="1080">
+          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/search/Dijkstra/HeapType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/search/Dijkstra/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dumps/depth.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dumps/airports.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dumps/aircraft.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algo/Opg2Dijkstra/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algo/Opg2Dijkstra/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algo/Opg3Dijkstra/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="51" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algo/Opg3Dijkstra/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dumps/airlines.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dumps/routes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="13" column="48" lean-forward="true" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IO/MSTRouteReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/Route.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IO/RouteReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algo/Opg4MST/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1998#1999#0" expanded="true" />
+            <element signature="e#2033#2034#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algo/Opg4MST/Primm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algo/Opg4MST/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
