@@ -5,7 +5,7 @@ public class Route {
     private String airlineCode, sourceCode, distinationCode;
     private double distance, time;
 
-    public Route(String airlineCode, String sourceCode, String distinationCode, float distance, float time) {
+    public Route(String airlineCode, String sourceCode, String distinationCode, double distance, double time) {
         this.airlineCode = airlineCode;
         this.sourceCode = sourceCode;
         this.distinationCode = distinationCode;
@@ -41,7 +41,7 @@ public class Route {
         return distance;
     }
 
-    public void setDistance(float distance) {
+    public void setDistance(double distance) {
         this.distance = distance;
     }
 
@@ -49,7 +49,7 @@ public class Route {
         return time;
     }
 
-    public void setTime(float time) {
+    public void setTime(double time) {
         this.time = time;
     }
 }
